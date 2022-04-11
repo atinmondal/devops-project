@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/task-devops-kreeti",
+          "awslogs-group": "/ecs/task-devops-project",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -37,7 +37,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "017207879477.dkr.ecr.us-east-1.amazonaws.com/myrepo:da638f8702a02279ae3027eaca78a07639fb66ad",
+      "image": "017207879477.dkr.ecr.us-east-1.amazonaws.com/myrepo:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -64,8 +64,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:017207879477:task-definition/task-devops-kreeti:7",
-  "family": "task-devops-kreeti",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:017207879477:task-definition/task-devops-project:1",
+  "family": "task-devops-project",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -126,7 +126,7 @@
     "cpuArchitecture": null
   },
   "cpu": "512",
-  "revision": 7,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,

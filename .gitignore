@@ -1,3 +1,5 @@
+.aws
+.docker
 .ssh
 .bash_history
 .bash_logout
