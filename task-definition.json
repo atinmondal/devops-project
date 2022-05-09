@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::017207879477:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::754733740943:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/task-devops-project",
+          "awslogs-group": "/ecs/task",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -37,7 +37,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "017207879477.dkr.ecr.us-east-1.amazonaws.com/myrepo:latest",
+      "image": "754733740943.dkr.ecr.us-east-1.amazonaws.com/myrepo:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -59,13 +59,13 @@
   ],
   "placementConstraints": [],
   "memory": "1024",
-  "taskRoleArn": "arn:aws:iam::017207879477:role/ecsTaskExecutionRole",
+  "taskRoleArn": null,
   "compatibilities": [
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:017207879477:task-definition/task-devops-project:1",
-  "family": "task-devops-project",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:754733740943:task-definition/task:1",
+  "family": "task",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -90,12 +90,6 @@
       "targetType": null,
       "value": null,
       "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
-    },
-    {
-      "targetId": null,
-      "targetType": null,
-      "value": null,
-      "name": "com.amazonaws.ecs.capability.task-iam-role"
     },
     {
       "targetId": null,
