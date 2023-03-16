@@ -27,8 +27,10 @@ push an updated task definition to AWS to deploy the latest code to ECS.
   a) Write down all the steps done to complete the task [ With screenshots ]
   b) Write down how to test the output [ with screenshots ]
 
+# GitHub action workflow
+
 ![image](https://user-images.githubusercontent.com/70535896/225723016-717ef34e-5228-4bd0-af8e-ffe6f75f7696.png)
 
-## Final deployed application
+# Final deployed application
 
 ![image](https://user-images.githubusercontent.com/70535896/225723300-db51dac3-f8ee-451a-ac9b-08309ed6e238.png)
